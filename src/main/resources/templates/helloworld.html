@@ -2,8 +2,9 @@
 <html xmlns:th="http://www.thymeleaf.org">
     <head>
         <title>Hello World!</title>
+        <link th:href="@{/styles/main.css}" rel="stylesheet" />
     </head>
     <body>
-        <h1 th:text="'Current time is ' + ${theDate}">Hello World!</h1>
+        <h1 th:text="'Current time is ' + ${theDate}" class="learning" />
     </body>
 </html>
